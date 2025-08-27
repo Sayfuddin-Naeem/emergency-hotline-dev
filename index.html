@@ -1,13 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+  <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>Emergency Service Directory</title>
+</head>
+<body>
+
+  <!-- ========== Start navbar Section ========== -->
+  
+  <header class="">
+    <!-- ========== Start navbar Section ========== -->
+    
+    <nav class="flex flex-col sm:flex-row gap-18 sm:gap-0 items-center justify-center sm:justify-between px-9.5 sm:px-24 py-10">
+      <div class="flex gap-4">
+        <figure>
+          <img
+            src="./images/logo.png"
+            alt="Emergency Service logo"
+            class="w-20 h-20"
+          />
+        </figure>
+        <p class="text-gradient-02 font-bold text-4xl">
+          Emergency<br>
+          Service
+        </p>
+      </div>
+      <div class="flex gap-4 sm:gap-8">
+        <p class="w-42 sm:w-[12.3rem] h-[5.2rem] flex justify-center items-center gap-2 p-[1.2rem] font-extrabold font-inter text-[1.4rem] sm:text-[1.6rem] bg-bg-01 rounded-full">
+          <span class="">0</span>
+          <img
+            src="./images/heart.png" 
+            alt="heart icon"
+            class="w-12 h-12"
+          />
+        </p>
+        <p class="w-42 sm:w-[12.3rem] h-[5.2rem] flex justify-center items-center gap-2 px-8 py-[1.2rem] font-extrabold font-inter text-[1.4rem] sm:text-[1.6rem] bg-bg-01 rounded-full">
+          <span class="">100</span>
+          <img
+            src="./images/coin.png"
+            alt="coin icon"
+            class="w-10 h-10"
+          />
+        </p>
+        <p class="w-42 sm:w-[12.7rem] h-[5.2rem] flex justify-center items-center gap-2 py-[1.2rem] px-[1.2rem] sm:px-[3.6rem] font-semibold font-inter text-[1.4rem] sm:text-[1.6rem] bg-bg-btn text-white rounded-full">
+          <span class="">0</span>
+          Copy
+        </p>
+      </div>
+    </nav>
+    
+    <!-- ========== End navbar Section ========== -->
+  </header>
+  
+  <!-- ========== End navbar Section ========== -->
+  
+  <script type="module" src="./src/main.js"></script>
+</body>
 </html>

@@ -3,10 +3,16 @@
 
 @theme{
   /* color */
+  --color-gradient-01: #013223;
+  --color-gradient-02: #006747;
+  --color-bg-btn: #00A63E;
+  --color-bg-01: #41ff6b1a;
   
 
   /* font  */
-  /* --font-outfit: "Outfit", sans-serif; */
+  --font-hind-madurai: "Hind Madurai", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 @layer base{
@@ -18,7 +24,6 @@
   *,
   *::before,
   *::after{
-    /* font-family: var(--font-outfit); */
     font-size: 1.6rem;
     line-height: 1.5;
     letter-spacing: 0.1rem;
