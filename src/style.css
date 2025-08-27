@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme{
+  /* color */
+  
+
+  /* font  */
+  /* --font-outfit: "Outfit", sans-serif; */
+}
+
+@layer base{
+  html {
+        font-size: 62.5%;
+        /* For 1rem = 10px base */
+  }
+
+  *,
+  *::before,
+  *::after{
+    /* font-family: var(--font-outfit); */
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    box-sizing: border-box;
+  }
+  
+}
