@@ -269,7 +269,72 @@
       <!-- ========== Start aside Section ========== -->
       
       <aside class="bg-white p-9.5 rounded-[1.2rem] shadow-[0_2px_8px_0_rgba(99,99,99,0.2)]">
+        <div class="flex justify-between mb-6.5">
+          <div class="flex gap-3.5 items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-9.5 h-9.5 fill-gray-600" viewBox="0 0 640 640">
+              <path d="M528 320C528 434.9 434.9 528 320 528C205.1 528 112 434.9 112 320C112 205.1 205.1 112 320 112C434.9 112 528 205.1 528 320zM64 320C64 461.4 178.6 576 320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320zM296 184L296 320C296 328 300 335.5 306.7 340L402.7 404C413.7 411.4 428.6 408.4 436 397.3C443.4 386.2 440.4 371.4 429.3 364L344 307.2L344 184C344 170.7 333.3 160 320 160C306.7 160 296 170.7 296 184z"/>
+            </svg>
+            <p class="text-dark-01 text-[2rem] font-roboto font-medium">Call History</p>
+          </div>
+          <div class="">
+            <button class="btn btn-xl bg-bg-btn text-white text-[1.6rem] font-inter font-semibold rounded-full w-40 h-18">Clear</button>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-3.5" id="historyContainer">
+          <div class="bg-neutral-50 p-6 rounded-2xl flex items-center justify-between shadow-2xs">
+            <div class="flex flex-col justify-center gap-3.5">
+              <h2 class="font-inter font-semibold text-dark-01 text-[1.8rem]">Fire Service Number</h2>
+              <p class="font-hind-madurai text-gray-600 text-[1.8rem]">999</p>
+            </div>
+            <div class="">
+              <p class="font-hind-madurai text-[1.8rem] text-dark-01">
+                11:36:58 AM
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-neutral-50 p-6 rounded-2xl flex items-center justify-between shadow-2xs">
+            <div class="flex flex-col justify-center gap-3.5">
+              <h2 class="font-inter font-semibold text-dark-01 text-[1.8rem]">Fire Service Number</h2>
+              <p class="font-hind-madurai text-gray-600 text-[1.8rem]">999</p>
+            </div>
+            <div class="">
+              <p class="font-hind-madurai text-[1.8rem] text-dark-01">
+                11:36:58 AM
+              </p>
+            </div>
+          </div>
+          <div class="bg-neutral-50 p-6 rounded-2xl flex items-center justify-between shadow-2xs">
+            <div class="flex flex-col justify-center gap-3.5">
+              <h2 class="font-inter font-semibold text-dark-01 text-[1.8rem]">Fire Service Number</h2>
+              <p class="font-hind-madurai text-gray-600 text-[1.8rem]">999</p>
+            </div>
+            <div class="">
+              <p class="font-hind-madurai text-[1.8rem] text-dark-01">
+                11:36:58 AM
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ========== Start history template Section ========== -->
         
+        <template id="historyTemplate">
+          <div id="historyValue" class="bg-neutral-50 p-6 rounded-2xl flex items-center justify-between shadow-2xs">
+            <div class="flex flex-col justify-center gap-3.5">
+              <h2 id="history--heading" class="font-inter font-semibold text-dark-01 text-[1.8rem]"></h2>
+              <p id="history--service-number" class="font-hind-madurai text-gray-600 text-[1.8rem]"></p>
+            </div>
+            <div class="">
+              <p id="history--time" class="font-hind-madurai text-[1.8rem] text-dark-01"></p>
+            </div>
+          </div>
+        </template>
+        
+        <!-- ========== End history template Section ========== -->
+
       </aside>
       
       <!-- ========== End aside Section ========== -->
