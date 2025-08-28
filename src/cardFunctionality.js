@@ -1,8 +1,12 @@
 import { countCardHeartIconClick } from "./countCardHeartIconClick";
+import { makeACall } from "./makeACall";
 
 export const cardFunctionality = (ev, id, curCard) => {
     if(ev.target.id === 'cardHeartIcon'){
         countCardHeartIconClick();
-        // console.log(curCard, ev);
+        return true;
+    }
+    else if(ev.target.id === 'cardCallBtn'){
+        makeACall(curCard);
     }
 };

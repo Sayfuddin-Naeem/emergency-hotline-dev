@@ -13,21 +13,27 @@ export const showServices = (services) => {
 
         const serviceClone = document.importNode(serviceTemplate.content, true);
 
-        const curCard = serviceClone.querySelector('#cardValue');
-        curCard.setAttribute('id', `card${id}`);
-        
-        curCard.addEventListener('click', (ev) => {
-            cardFunctionality(ev, id, curCard);
-        });
+        if(serviceClone){
+            const curCard = serviceClone.querySelector('#cardValue');
+            curCard.setAttribute('id', `card${id}`);
+            
+            curCard.addEventListener('click', (ev) => {
+                cardFunctionality(ev, id, curCard);
+            });
 
-        serviceClone.querySelector('#cardImage').src = image;
-        serviceClone.querySelector('#cardImage').alt = shortName + ' icon';
-        serviceClone.querySelector('#cardHeading').textContent = fullName;
-        serviceClone.querySelector('#cardSubheading').textContent = shortName;
-        serviceClone.querySelector('#serviceNumber').textContent = phone;
-        serviceClone.querySelector('#serviceCategory').textContent = category;
+            serviceClone.querySelector('#cardImage').src = image;
+            serviceClone.querySelector('#cardImage').alt = shortName + ' icon';
+            serviceClone.querySelector('#cardHeading').textContent = fullName;
+            serviceClone.querySelector('#cardSubheading').textContent = shortName;
+            serviceClone.querySelector('#serviceNumber').textContent = phone;
+            serviceClone.querySelector('#serviceCategory').textContent = category;
 
 
-        serviceContainer.append(serviceClone);
+            serviceContainer.append(serviceClone);
+
+            return true;
+        }
+
+        return false;
     });
 };
