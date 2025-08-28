@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "fullName": "National Emergency Service",
+        "shortName": "National Emergency",
+        "phone" : "999",
+        "category": "All",
+        "image": "../images/emergency.png"
+    },
+
+    {
+        "id": 2,
+        "fullName": "Police Helpline Number",
+        "shortName": "Police",
+        "phone" : "999",
+        "category": "Police",
+        "image": "../images/police.png"
+    },
+
+    {
+        "id": 3,
+        "fullName": "Bangladesh Fire Service",
+        "shortName": "Fire Service",
+        "phone" : "999",
+        "category": "Fire",
+        "image": "../images/fire-service.png"
+    },
+
+    {
+        "id": 4,
+        "fullName": "Ambulance Service",
+        "shortName": "Ambulance",
+        "phone" : "1994-999999",
+        "category": "Health",
+        "image": "../images/ambulance.png"
+    },
+
+    {
+        "id": 5,
+        "fullName": "Women & Child Support",
+        "shortName": "Women and Child",
+        "phone" : "109",
+        "category": "Help",
+        "image": "../images/women.png"
+    },
+
+    {
+        "id": 6,
+        "fullName": "Anti-Corruption Commission",
+        "shortName": "Anti-Corruption",
+        "phone" : "106",
+        "category": "Govt",
+        "image": "../images/dudok.png"
+    },
+
+    {
+        "id": 7,
+        "fullName": "Electricity Helpline",
+        "shortName": "Electricity Outage",
+        "phone" : "16216",
+        "category": "Electricity",
+        "image": "../images/electricity.png"
+    },
+
+    {
+        "id": 8,
+        "fullName": "Brac Helpline",
+        "shortName": "Brac",
+        "phone" : "16445",
+        "category": "NGO",
+        "image": "../images/brac.png"
+    },
+
+    {
+        "id": 9,
+        "fullName": "Bangladesh Railway Helpline ",
+        "shortName": "Bangladesh Railway",
+        "phone" : "163",
+        "category": "Travel",
+        "image": "../images/Bangladesh-Railway.png"
+    }
+]
