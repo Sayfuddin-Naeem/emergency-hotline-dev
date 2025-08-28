@@ -1,3 +1,5 @@
+import { cardFunctionality } from "./cardFunctionality";
+
 const serviceContainer = document.querySelector('#serviceContainer');
 const serviceTemplate = document.querySelector('#serviceTemplate');
 
@@ -11,7 +13,12 @@ export const showServices = (services) => {
 
         const serviceClone = document.importNode(serviceTemplate.content, true);
 
-        serviceClone.querySelector('#cardValue').setAttribute('id', `card${id}`);
+        const curCard = serviceClone.querySelector('#cardValue');
+        curCard.setAttribute('id', `card${id}`);
+        
+        curCard.addEventListener('click', (ev) => {
+            cardFunctionality(ev, id, curCard);
+        });
 
         serviceClone.querySelector('#cardImage').src = image;
         serviceClone.querySelector('#cardImage').alt = shortName + ' icon';
