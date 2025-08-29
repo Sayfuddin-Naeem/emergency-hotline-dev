@@ -5,7 +5,7 @@
         "shortName": "National Emergency",
         "phone" : "999",
         "category": "All",
-        "image": "../images/emergency.png"
+        "image": "./images/emergency.png"
     },
 
     {
@@ -14,7 +14,7 @@
         "shortName": "Police",
         "phone" : "999",
         "category": "Police",
-        "image": "../images/police.png"
+        "image": "./images/police.png"
     },
 
     {
@@ -23,7 +23,7 @@
         "shortName": "Fire Service",
         "phone" : "999",
         "category": "Fire",
-        "image": "../images/fire-service.png"
+        "image": "./images/fire-service.png"
     },
 
     {
@@ -32,7 +32,7 @@
         "shortName": "Ambulance",
         "phone" : "1994-999999",
         "category": "Health",
-        "image": "../images/ambulance.png"
+        "image": "./images/ambulance.png"
     },
 
     {
@@ -41,7 +41,7 @@
         "shortName": "Women and Child",
         "phone" : "109",
         "category": "Help",
-        "image": "../images/women.png"
+        "image": "./images/women.png"
     },
 
     {
@@ -50,7 +50,7 @@
         "shortName": "Anti-Corruption",
         "phone" : "106",
         "category": "Govt",
-        "image": "../images/dudok.png"
+        "image": "./images/dudok.png"
     },
 
     {
@@ -59,7 +59,7 @@
         "shortName": "Electricity Outage",
         "phone" : "16216",
         "category": "Electricity",
-        "image": "../images/electricity.png"
+        "image": "./images/electricity.png"
     },
 
     {
@@ -68,7 +68,7 @@
         "shortName": "Brac",
         "phone" : "16445",
         "category": "NGO",
-        "image": "../images/brac.png"
+        "image": "./images/brac.png"
     },
 
     {
@@ -77,6 +77,6 @@
         "shortName": "Bangladesh Railway",
         "phone" : "163",
         "category": "Travel",
-        "image": "../images/Bangladesh-Railway.png"
+        "image": "./images/Bangladesh-Railway.png"
     }
 ]
